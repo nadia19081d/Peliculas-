@@ -1,0 +1,68 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  
+}
+body{
+  min-height: 100vh;
+  background-color: #05112b;
+
+}
+.header{
+  padding-block: 1rem;
+  box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.preview-container{
+  display: grid;
+  flex-direction: center;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 1rem;
+  margin: 10px;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.logo{
+ border: 1px solid white;
+ height: 6em;
+ margin-right: 1.5rem;
+
+}
+.nombre-serie{
+  border-radius: 4px; /* Redondea ligeramente los bordes */
+  border: 1px solid #093499; /* Mismo color que el botón */
+  background-color: #fff; /* Fondo blanco */
+  color: #000; /* Texto negro */
+  font-size: 1.2rem; /* Tamaño de fuente similar al botón */
+  /* Espaciado similar al botón */
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+
+}
+.nombre-serie:focus {
+  border-color: #d9750b; /* Cambia el color del borde al mismo que el botón */
+  outline: none; /* Quita el contorno predeterminado al enfocar */
+}

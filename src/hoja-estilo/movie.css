@@ -1,0 +1,44 @@
+
+input{ 
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #007BFF;
+    margin: 20px;
+}
+
+.container-second {
+border-radius: 1rem;
+box-shadow: 0 0 3rem -1rem gba(0, 0, 0, .25);
+padding-block: 1rem;
+text-transform: uppercase;
+position: relative; /* Esto lo pusimos por que abajo usamos el position absolute y se fue hasta arriba el numero se pone en el padre */
+isolation: isolate;
+overflow: hidden;
+
+height: fit-content;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr ;
+border: 1px solid black;
+
+}
+    
+.image-movie{
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 4rem;
+    border-radius: 50px;
+    
+}
+.movie-card{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 3px;
+}
+
+
